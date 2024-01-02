@@ -1,2 +1,17 @@
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/AddressController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/center/CenterController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/StuFooController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/aspect/ServiceLogAspect.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/center/CenterUserController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/IndexController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/center/MyCommentsController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/ItemsController.java
 /Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/HelloController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/BaseController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/ShopcatController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/PassportController.java
 /Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/Application.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/exception/CustomExceptionHandler.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/resource/FileUpload.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/OrdersController.java
+/Users/yanliangdeng/IdeaProjects/foodie/foodie-api/src/main/java/com/deng/controller/center/MyOrdersController.java

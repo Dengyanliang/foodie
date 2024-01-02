@@ -39,10 +39,13 @@ public class TestTransServiceImpl implements TestTransService {
     @Transactional(propagation = Propagation.REQUIRED)
     @Override
     public void testPropagationTrans() {
-        stuService.saveParent();
+
+        stuService.saveParent(1);
 
         try {
-            // save point
+            // keypoint save point 这是一个保存点
+            // 如果saveChildren()是Required，而testPropagationTrans()没有事务，
+            // 如果发生异常，由于这里用try..catch包裹起来了，所以只会回滚saveChildren()，并不会回滚saveParent()
             stuService.saveChildren();
         } catch (Exception e) {
             e.printStackTrace();
@@ -50,8 +53,8 @@ public class TestTransServiceImpl implements TestTransService {
 
         // delete
         // update
-        stuService.saveParent();
+        stuService.saveParent(2);
 
-//        int a = 1 / 0;
+        int a = 1 / 0;
     }
 }

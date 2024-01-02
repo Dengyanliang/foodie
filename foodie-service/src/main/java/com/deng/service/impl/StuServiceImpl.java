@@ -47,13 +47,13 @@ public class StuServiceImpl implements StuService {
         stuMapper.deleteByPrimaryKey(id);
     }
 
-    public void saveParent() {
+    public void saveParent(int parentId) {
         Stu stu = new Stu();
-        stu.setName("parent");
+        stu.setName("parent-"+parentId);
         stu.setAge(19);
         stuMapper.insert(stu);
     }
-    @Transactional(propagation = Propagation.REQUIRED)
+    @Transactional(propagation = Propagation.NOT_SUPPORTED)
     public void saveChildren() {
         saveChild1();
         int a = 1 / 0;

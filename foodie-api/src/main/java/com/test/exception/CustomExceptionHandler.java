@@ -1,4 +1,4 @@
-package com.deng.exception;
+package com.test.exception;
 
 import com.deng.utils.IMOOCJSONResult;
 import org.springframework.web.bind.annotation.ExceptionHandler;

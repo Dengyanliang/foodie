@@ -1,9 +1,9 @@
-package com.deng.controller.center;
+package com.test.controller.center;
 
-import com.deng.controller.BaseController;
+import com.test.controller.BaseController;
 import com.deng.pojo.Users;
 import com.deng.pojo.bo.center.CenterUserBO;
-import com.deng.resource.FileUpload;
+import com.test.resource.FileUpload;
 import com.deng.service.center.CenterUserService;
 import com.deng.utils.CookieUtils;
 import com.deng.utils.DateUtil;

@@ -1,4 +1,4 @@
-package com.deng.controller;
+package com.test.controller;
 
 import com.deng.pojo.*;
 import com.deng.pojo.vo.*;

@@ -1,4 +1,4 @@
-package com.deng.controller.center;
+package com.test.controller.center;
 
 import com.deng.pojo.Users;
 import com.deng.service.center.CenterUserService;

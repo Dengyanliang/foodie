@@ -1,4 +1,4 @@
-package com.deng.controller;
+package com.test.controller;
 
 import com.deng.service.StuService;
 import org.springframework.beans.factory.annotation.Autowired;

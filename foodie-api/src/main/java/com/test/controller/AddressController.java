@@ -1,4 +1,4 @@
-package com.deng.controller;
+package com.test.controller;
 
 import com.deng.pojo.UserAddress;
 import com.deng.pojo.bo.AddressBO;
